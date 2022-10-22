@@ -2,7 +2,9 @@ html {
     box-sizing: border-box;
     height: 100%;
 }
-
+.destination:hover h2 {
+    transform: rotate(0deg);
+}
 *,
 *::before,
 *::after {
@@ -44,6 +46,7 @@ h2 {
     margin: 0;
     transform: rotate(-45deg);
     text-shadow: 0 0 5px #01579b;
+    transition: transform 0.5s;
 }
 
 #florida {
